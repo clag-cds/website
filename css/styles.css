@@ -1,0 +1,122 @@
+@charset "utf-8";
+body {
+    font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+    /* background: linear-gradient(top left, #ac9aac 85%, #9b7b9b 75%, #9099dd 85%); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background: #a64bf4;
+    background: url(../images/img8.jpg) no-repeat;
+    background: linear-gradient(45deg, #00dbde, #fc00ff) no-repeat;
+    background-size: cover;
+    top: 0%;
+    left: -100%;
+    transition: all 0.4s;
+    padding: 5px 15px;
+    margin: 0px;
+    color: rgba(95, 66, 66, 1);
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 1px 1px black;
+    box-sizing: border-box;
+    max-width: 100vw;
+    min-height: 100vh;
+}
+
+section {
+    font: inherit;
+    margin: 0px 2%;
+}
+
+nav {
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    float: unset;
+    margin: 0px;
+    padding: 0px;
+}
+
+#banner {
+    margin: auto 15%;
+    width: 70%;
+    height: 400px;
+}
+
+li {
+    display: inline-flex;
+    /*display: -webkit-inline-flex;*/
+    list-style: none;
+    list-style-type: none;
+}
+
+img {
+    flex: auto;
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 30px 1%;
+    vertical-align: middle;
+    align-self: auto;
+}
+
+:first-of-type img {
+    margin-left: 0%;
+}
+
+:last-of-type img {
+    margin-right: 2%;
+}
+
+p {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+}
+
+a {
+    color: #2c3bac;
+    text-decoration: black;
+    padding: 5px 10px;
+}
+
+:first-of-type a {
+    padding-left: 0px;
+}
+
+li:first-child {
+    padding-left: 0px;
+}
+
+a:hover {
+    color: #a3a9d3;
+    text-decoration: black;
+}
+
+.wrap-around {
+    display: block;
+    flex: auto;
+    flex-wrap: wrap;
+}
+
+div.no-float {
+    display: block;
+    /* display: -webkit-flex; */
+    flex: unset;
+    float: left;
+}
+
+.float {
+    display: block;
+    /* display: -webkit-flex; */
+    flex: auto;
+    flex-flow: wrap;
+    float: laft;
+}
+
+h1 {
+    width: 100%;
+    align-content: initial;
+}
